@@ -1,0 +1,15 @@
+{
+  "name": "Extension for Eclipse Orion",
+  "description": "Saves edited file to Orion Workspace",
+  "version": "0.1",
+  "devtools_page": "devtools.html",
+  "background": {
+        "scripts": ["background.js"]
+    },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2
+}
