@@ -3,13 +3,10 @@
   "description": "Saves edited file to Orion Workspace",
   "version": "0.1",
   "devtools_page": "devtools.html",
-  "background": {
-        "scripts": ["background.js"]
-    },
+  "background": {"page" :"background.html"},
   "permissions": [
     "tabs",
-    "http://*/*",
-    "https://*/*"
+    "http://*/*"
   ],
   "manifest_version": 2
 }
